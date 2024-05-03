@@ -1,50 +1,50 @@
-App 0001: Medium risk
-App 0002: High risk
-App 0003: Medium risk
-App 0004: Medium risk
-App 0005: Medium risk
-App 0006: Medium risk
-App 0007: High risk
-App 0008: Medium risk
-App 0009: Medium risk
-App 0010: Medium risk
-App 0011: Medium risk
-App 0012: Low risk
-App 0013: Medium risk
-App 0014: High risk
-App 0015: Medium risk
-App 0016: Medium risk
-App 0017: High risk
-App 0018: Medium risk
-App 0019: High risk
-App 0020: Low risk
-App 0021: High risk
-App 0022: Medium risk
-App 0023: Low risk
-App 0024: Medium risk
-App 0025: Medium risk
-App 0026: Medium risk
-App 0027: Medium risk
-App 0028: Medium risk
-App 0029: High risk
-App 0030: Medium risk
-App 0031: Low risk
-App 0032: Medium risk
-App 0033: Low risk
-App 0034: High risk
-App 0035: High risk
-App 0036: Medium risk
-App 0037: Medium risk
-App 0038: High risk
-App 0039: Medium risk
-App 0040: Medium risk
-App 0041: Medium risk
-App 0042: Medium risk
-App 0043: Low risk
-App 0044: Medium risk
-App 0045: Medium risk
-App 0046: Medium risk
-App 0047: High risk
-App 0048: Low risk
-App 0049: High risk
-App 0050: High risk
+App 0001: Medium risk, degree 0.5
+App 0002: Medium risk, degree 0.7
+App 0003: Medium risk, degree 0.7
+App 0004: Medium risk, degree 0.9333333333333333
+App 0005: Medium risk, degree 0.1
+App 0006: Medium risk, degree 0.36666666666666664
+App 0007: Medium risk, degree 1.0
+App 0008: Medium risk, degree 1.0
+App 0009: Medium risk, degree 0.7666666666666667
+App 0010: Medium risk, degree 0.3333333333333333
+App 0011: Medium risk, degree 1.0
+App 0012: Low risk, degree 0.5
+App 0013: Medium risk, degree 0.7
+App 0014: High risk, degree 1.0
+App 0015: Medium risk, degree 0.5
+App 0016: Medium risk, degree 1.0
+App 0017: Medium risk, degree 1.0
+App 0018: Medium risk, degree 0.6
+App 0019: Medium risk, degree 1.0
+App 0020: Low risk, degree 0.5
+App 0021: High risk, degree 1.0
+App 0022: Medium risk, degree 1.0
+App 0023: Medium risk, degree 0.9666666666666667
+App 0024: Medium risk, degree 1.0
+App 0025: Medium risk, degree 1.0
+App 0026: Medium risk, degree 0.9
+App 0027: Medium risk, degree 0.3
+App 0028: Medium risk, degree 0.9666666666666667
+App 0029: High risk, degree 0.9
+App 0030: High risk, degree 1.0
+App 0031: Medium risk, degree 1.0
+App 0032: Medium risk, degree 0.3333333333333333
+App 0033: Medium risk, degree 1.0
+App 0034: High risk, degree 1.0
+App 0035: Medium risk, degree 0.9
+App 0036: High risk, degree 0.3
+App 0037: Medium risk, degree 0.9
+App 0038: High risk, degree 0.8666666666666667
+App 0039: High risk, degree 1.0
+App 0040: Medium risk, degree 0.7
+App 0041: Medium risk, degree 0.5
+App 0042: Medium risk, degree 1.0
+App 0043: Medium risk, degree 1.0
+App 0044: Medium risk, degree 0.9333333333333333
+App 0045: Medium risk, degree 1.0
+App 0046: Medium risk, degree 0.7666666666666667
+App 0047: Medium risk, degree 1.0
+App 0048: Medium risk, degree 0.7666666666666667
+App 0049: Medium risk, degree 1.0
+App 0050: Medium risk, degree 0.23333333333333334

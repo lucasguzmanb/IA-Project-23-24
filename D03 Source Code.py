@@ -19,7 +19,7 @@ riskDict = readFuzzySetsFile("Files\Risks.txt")
 # for x in applicationList:
 #     x.printApplication()
 
-resultFile = open("Files\Results.txt", "w")  # open/create results file
+resultFile = open("Files\Results.txt", "w")  # open/create results file (truncate content)
 
 for app in applicationList:
 
@@ -63,7 +63,7 @@ for app in applicationList:
         if not rules_that_apply:
             riskDict[key].memDegree = 0
         else:
-            riskDict[key].memDegree = min(
+            riskDict[key].memDegree = max(
                 [
                     rule_activations[rule][0]
                     for rule in rule_activations
@@ -80,6 +80,6 @@ for app in applicationList:
             max_degree = value.memDegree
             resultRisk = value.label
     riskWord = {"LowR": "Low", "MediumR": "Medium", "HighR": "High"}
-    resultFile.write(f"App {app.appId}: {riskWord[resultRisk]} risk\n")
+    resultFile.write(f"App {app.appId}: {riskWord[resultRisk]} risk, degree {max_degree}\n")
 
 resultFile.close()
