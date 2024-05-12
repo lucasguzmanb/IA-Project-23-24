@@ -26,7 +26,7 @@ minimum = 100
 maximum = 0 # for analysis Q2
 
 for app in applicationList:
-    # print(f"\n*** APP {app.appId} ***")
+    print(f"\n*** APP {app.appId} ***")
 
     # FUZZYFICATION
     inputDict = {str(key): val for key, val in app.data}
@@ -60,10 +60,10 @@ for app in applicationList:
     )
     x = np.arange(0, 101, 1)
     risk_result = fuzz.defuzz(x, aggregated, "centroid")
-    # print(f"FINAL RESULT: {risk_result}")
+    print(f"FINAL RESULT: {risk_result}")
     minimum = min(minimum, risk_result)
     maximum = max(maximum, risk_result)
-
+    
     # WRITE ON RESULTS FILE
     resultFile.write(f"\n*** APP {app.appId} ***\nRISK: {risk_result}\n")
 

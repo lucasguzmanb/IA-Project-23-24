@@ -98,45 +98,46 @@ plt.show()
 
 """
 
-    riskId = "LowR"
-    plt.figure()
-    plt.plot(
-        riskDict[f"Risk={riskId}"].x,
-        riskDict[f"Risk={riskId}"].y,
-        "b",
-        linewidth=1.5,
-        linestyle="--",
-    )
-    riskId = "MediumR"
-    plt.plot(
-        riskDict[f"Risk={riskId}"].x,
-        riskDict[f"Risk={riskId}"].y,
-        "g",
-        linewidth=1.5,
-        linestyle="--",
-    )
-    riskId = "HighR"
-    plt.plot(
-        riskDict[f"Risk={riskId}"].x,
-        riskDict[f"Risk={riskId}"].y,
-        "r",
-        linewidth=1.5,
-        linestyle="--",
-    )
-    plt.fill_between(
-        x,
-        np.zeros_like(x),
-        aggregated,
-        facecolor="Orange",
-        alpha=0.6,
-    )
-    plt.plot([risk_result, risk_result], [0, 0.5], "k", linewidth=1.5)
-    plt.text(
-        27,
-        0.5,
-        "27.536",
-        bbox=dict(facecolor="white"),
-        ha="center",
-    )
-    plt.title(f"Risk of application {app.appId}")
-    plt.show() """
+    if app.appId == "0012":
+        riskId = "LowR"
+        plt.figure()
+        plt.plot(
+            riskDict[f"Risk={riskId}"].x,
+            riskDict[f"Risk={riskId}"].y,
+            "b",
+            linewidth=1.5,
+            linestyle="--",
+        )
+        riskId = "MediumR"
+        plt.plot(
+            riskDict[f"Risk={riskId}"].x,
+            riskDict[f"Risk={riskId}"].y,
+            "g",
+            linewidth=1.5,
+            linestyle="--",
+        )
+        riskId = "HighR"
+        plt.plot(
+            riskDict[f"Risk={riskId}"].x,
+            riskDict[f"Risk={riskId}"].y,
+            "r",
+            linewidth=1.5,
+            linestyle="--",
+        )
+        plt.fill_between(
+            x,
+            np.zeros_like(x),
+            aggregated,
+            facecolor="Orange",
+            alpha=0.6,
+        )
+        plt.plot([risk_result, risk_result], [0, 0.5], "k", linewidth=1.5)
+        plt.text(
+            risk_result,
+            0.5,
+            round(risk_result, 4),
+            bbox=dict(facecolor="white"),
+            ha="center",
+        )
+        plt.title(f"Risk of application {app.appId}")
+        plt.show()"""
