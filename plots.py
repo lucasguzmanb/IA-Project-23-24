@@ -98,7 +98,7 @@ plt.show()
 
 """
 
-    if app.appId == "0012":
+    if app.appId == "0041":
         riskId = "LowR"
         plt.figure()
         plt.plot(
@@ -140,4 +140,5 @@ plt.show()
             ha="center",
         )
         plt.title(f"Risk of application {app.appId}")
-        plt.show()"""
+        plt.show()
+"""
