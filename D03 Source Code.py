@@ -19,7 +19,7 @@ riskDict = readFuzzySetsFile("Files\Risks.txt")
 #     x.printApplication()
 
 resultFile = open(
-    "Files\Results.txt", "w"
+    "Files\D04 Results.txt", "w"
 )  # open/create results file (truncate content)
 resultFile.write("----- RISK RESULTS -----\n")
 minimum = 100
